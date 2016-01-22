@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat $1 | guile fields.scm > out.tex; pdflatex out.tex; qpdfview out.pdf;

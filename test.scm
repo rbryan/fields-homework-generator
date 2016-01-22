@@ -1,0 +1,11 @@
+(prob "problem 1" '((set "ab" "5" "because I care")
+		    (set "v1" "[1,2,3]")
+		    (set "v2" "[2,3,4]")
+		    (vspace)
+		    (fun "f(x)" "x^2")
+		    (fun "g(x)" "integrate(sin(x),x,0,%pi)")
+		    (vspace)
+		    (mul "ab" "integrate(5*x,x,a,b)" "woohoo division here's a bunch of text to print you lazy latex")
+		    (div "ab" "g(x)")
+		    (dot "v1" "v2" "why not the dot?")))
+
